@@ -1,0 +1,308 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Trekord",
+      "description": "Vacation Budget Planner V2",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/Angular.svg",
+          "alt": "Angular"
+        },
+        {
+          "src": "/Skills/typescript.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "src": "/Skills/ngrx.svg",
+          "alt": "NgRx"
+        },
+        {
+          "src": "/Skills/angularKarma.svg",
+          "alt": "Angular Karma"
+        },
+        {
+          "src": "/Skills/angularMaterial.svg",
+          "alt": "Angular Material"
+        },
+        {
+          "src": "/Skills/tailwind.svg",
+          "alt": "Tailwind CSS"
+        },
+        {
+          "src": "/Skills/NETcore.svg",
+          "alt": ".NET Core"
+        },
+        {
+          "src": "/Skills/SQLserver.svg",
+          "alt": "Microsoft SQL Server"
+        },
+        {
+          "src": "/Skills/Azure.svg",
+          "alt": "Azure"
+        },
+        {
+          "src": "/Skills/AzureDevops.svg",
+          "alt": "Azure DevOps"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": "Trekord Site",
+        "link": ""
+      },
+      "repo": {
+        "src": "/Skills/AzureDevops.svg",
+        "alt": "Trekord Azure DevOps Project",
+        "link": "https://dev.azure.com/jeremyjmcwilliams/TrekordPublic"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Sierra Madre",
+      "description": "Badge Platform",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/Angular.svg",
+          "alt": "Angular"
+        },
+        {
+          "src": "/Skills/typescript.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "src": "/Skills/ngrx.svg",
+          "alt": "NgRx"
+        },
+        {
+          "src": "/Skills/angularKarma.svg",
+          "alt": "Angular Karma"
+        },
+        {
+          "src": "/Skills/angularMaterial.svg",
+          "alt": "Angular Material"
+        },
+        {
+          "src": "/Skills/NETcore.svg",
+          "alt": ".NET Core"
+        },
+        {
+          "src": "/Skills/SQLserver.svg",
+          "alt": "Microsoft SQL Server"
+        },
+        {
+          "src": "/Skills/Azure.svg",
+          "alt": "Azure"
+        },
+        {
+          "src": "/Skills/AzureDevops.svg",
+          "alt": "Azure DevOps"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": "Sierra Madre Site",
+        "link": ""
+      },
+      "repo": {
+        "src": "public/Skills/AzureDevops.svg",
+        "alt": "Sierra Madre Azure DevOps Project",
+        "link": "https://dev.azure.com/jeremyjmcwilliams/SierraMadre"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Check't",
+      "description": "Shopping List Tool",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/Vue.js.svg",
+          "alt": "Vue.JS"
+        },
+        {
+          "src": "/Skills/typescript.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "src": "/Skills/vuex.svg",
+          "alt": "Vuex"
+        },
+        {
+          "src": "/Skills/tailwind.svg",
+          "alt": "Tailwind CSS"
+        },
+        {
+          "src": "/Skills/Node.js.svg",
+          "alt": "NodeJS"
+        },
+        {
+          "src": "/Skills/AWS.svg",
+          "alt": "Amazon Web Services"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": "Check't Site",
+        "link": "https://dev.d2tz6gamr0cndr.amplifyapp.com/"
+      },
+      "repo": {
+        "src": "/Skills/GitHub.svg",
+        "alt": "Check't Github Repo",
+        "link": "https://github.com/J2Macwilliams/checkt"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Journey Co$t",
+      "description": "Vacation Budget Planner V1",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/React.svg",
+          "alt": "React"
+        },
+        {
+          "src": "/Skills/typescript.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "src": "/Skills/materialUI.svg",
+          "alt": "Material UI"
+        },
+        {
+          "src": "/Skills/Node.js.svg",
+          "alt": "NodeJS"
+        },
+        {
+          "src": "/Skills/GraphQL.svg",
+          "alt": "GraphQL"
+        },
+        {
+          "src": "/Skills/prisma.svg",
+          "alt": "Prisma"
+        },
+        {
+          "src": "/Skills/Apollo.svg",
+          "alt": "Apollo"
+        },
+        {
+          "src": "/Skills/auth0.svg",
+          "alt": "Auth0"
+        },
+        {
+          "src": "/Skills/postgres.png",
+          "alt": "PostgreSQL"
+        },
+        {
+          "src": "/Skills/jest.png",
+          "alt": "Jest"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": "Journey Co$t Site",
+        "link": "https://journey-cost.netlify.app/"
+      },
+      "repo": {
+        "src": "/Skills/GitHub.svg",
+        "alt": "Journey Co$t Github Repo",
+        "link": "https://github.com/VacationJourney"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Garden of Knowledge",
+      "description": "(LMS) Learning Management System",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/React.svg",
+          "alt": "React"
+        },
+        {
+          "src": "/Skills/Redux.svg",
+          "alt": "Redux"
+        },
+        {
+          "src": "/Skills/semanticUI.svg",
+          "alt": "Semantic UI"
+        },
+        {
+          "src": "/Skills/Node.js.svg",
+          "alt": "NodeJS"
+        },
+        {
+          "src": "/Skills/Express.svg",
+          "alt": "Express JS"
+        },
+        {
+          "src": "/Skills/Postgresql.svg",
+          "alt": "PostgreSQL"
+        },
+        {
+          "src": "/Skills/jest.png",
+          "alt": "Jest"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": " Site",
+        "link": ""
+      },
+      "repo": {
+        "src": "/Skills/GitHub.svg",
+        "alt": "Github Repo",
+        "link": ""
+      }
+    },
+    {
+      "id": 6,
+      "title": "D8Picker",
+      "description": "Aperiodic recurrence scheduler",
+      "background": "",
+      "skills": [
+        {
+          "src": "/Skills/React.svg",
+          "alt": "React"
+        },
+        {
+          "src": "/Skills/chakraUI.svg",
+          "alt": "Chakra UI"
+        },
+        {
+          "src": "/Skills/Node.js.svg",
+          "alt": "NodeJS"
+        },
+        {
+          "src": "/Skills/Express.svg",
+          "alt": "Express JS"
+        },
+        {
+          "src": "/Skills/oauth.png",
+          "alt": "oauth2"
+        },
+        {
+          "src": "/Skills/Mongodb.svg",
+          "alt": "MongoDB"
+        },
+        {
+          "src": "/Skills/jest.png",
+          "alt": "Jest"
+        }
+      ],
+      "site": {
+        "src": "/Skills/link.svg",
+        "alt": "D8Picker Site",
+        "link": "https://labs20d8picker.netlify.app/"
+      },
+      "repo": {
+        "src": "/Skills/GitHub.svg",
+        "alt": "Journey Co$t Github Repo",
+        "link": "https://github.com/Labs20-D8Picker"
+      }
+    }
+  ]
+}

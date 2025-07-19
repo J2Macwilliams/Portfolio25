@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import data from '../../public/projectsData.json';
+import { ProjectDetails } from '../components/types';
+import styles from './projects.module.css';
+import Project from '../components/Projects/Project';
 
 const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+  const projects: ProjectDetails[] = data.projects;
 
-export default Projects
+  return (
+    <div className="grid grid-cols-4 gap-4">
+      {projects.map((p) => (
+        <Project key={p.id} {...p}/>
+      ))}
+    </div>
+  );
+};
+
+export default Projects;
