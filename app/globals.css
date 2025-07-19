@@ -1,4 +1,5 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@plugin "daisyui";
 
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, .dark, .dark *));
 
@@ -7,10 +8,10 @@
   --foreground: #010145;
 }
 
-.dark {  
-  --background: #010145;  
-  --foreground: dodgerblue;  
-}  
+.dark {
+  --background: #010145;
+  --foreground: dodgerblue;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -30,9 +31,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.content-boxes{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100%, 200px), 1fr);
 }

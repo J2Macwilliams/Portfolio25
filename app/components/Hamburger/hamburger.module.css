@@ -1,73 +1,73 @@
-.burgerButton {  
-  cursor: pointer;  
-  position: relative;  
-  height: 30px;  
-  width: 32px;  
-  display: block;  
-  z-index: 999;  
-  border: 0;  
-  border-radius: 0;  
-  background-color: transparent;  
-  pointer-events: all;  
-  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);  
-}  
-  
-.burgerBar {  
+.burgerButton {
+  cursor: pointer;
+  position: relative;
+  height: 30px;
+  width: 32px;
+  display: block;
+  z-index: 999;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  pointer-events: all;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.burgerBar {
   /* background-color: #200784;   */
-  position: absolute;  
-  top: 50%;  
-  right: 4px;  
-  left: 4px;  
-  height: 2px;  
-  width: auto;  
-  margin-top: -1px;  
-  transition:  
-    transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),  
-    opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),  
-    background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);  
-  transform-origin: center;  
-}  
-  
-/* Position bars */  
-.bar1 {  
-  transform: translateY(-8px);  
-}  
-  
-.bar2 {  
-  transform: scaleX(0.8);  
-}  
-  
-/* Hover effect on button affecting bar2 */  
-.burgerButton:hover .bar2 {  
-  transform: scaleX(1);  
-}  
-  
-/* For devices without touch events */  
-:global(.no-touchevents) .bar2:hover {  
-  transform: scaleX(1);  
-}  
-  
-.bar3 {  
-  transform: translateY(8px);  
-}  
-  
-/* Active state on button */  
-.active {  
-  transform: rotate(180deg);  
-}  
-  
-.active .burgerBar {  
-  background-color: #76b2fa;  
-}  
-  
-.active .bar1 {  
-  transform: rotate(45deg);  
-}  
-  
-.active .bar2 {  
-  opacity: 0;  
-}  
-  
-.active .bar3 {  
-  transform: rotate(-45deg);  
-}  
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  left: 4px;
+  height: 2px;
+  width: auto;
+  margin-top: -1px;
+  transition:
+    transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
+    opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform-origin: center;
+}
+
+/* Position bars */
+.bar1 {
+  transform: translateY(-8px);
+}
+
+.bar2 {
+  transform: scaleX(0.8);
+}
+
+/* Hover effect on button affecting bar2 */
+.burgerButton:hover .bar2 {
+  transform: scaleX(1);
+}
+
+/* For devices without touch events */
+:global(.no-touchevents) .bar2:hover {
+  transform: scaleX(1);
+}
+
+.bar3 {
+  transform: translateY(8px);
+}
+
+/* Active state on button */
+.active {
+  transform: rotate(180deg);
+}
+
+.active .burgerBar {
+  background-color: #76b2fa;
+}
+
+.active .bar1 {
+  transform: rotate(45deg);
+}
+
+.active .bar2 {
+  opacity: 0;
+}
+
+.active .bar3 {
+  transform: rotate(-45deg);
+}
