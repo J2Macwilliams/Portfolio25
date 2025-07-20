@@ -9,7 +9,7 @@ import HamburgerButton, { MenuProps } from '../Hamburger/Hamburger';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className='mb-12'>
       <div className="flex justify-between p-2 w-full">
         <Logo />
         <div className="hidden md:flex justify-evenly items-center">
@@ -34,7 +34,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden fixed flex justify-end w-full ">
-          <div className="flex flex-col w-1/4 p-4 shadow-lg rounded-md">
+          <div className="flex flex-col w-1/4 p-4 shadow-md z-10 dark:shadow-blue-400 rounded-md">
             <Link className="px-2 text-lg" href="about">
               About{' '}
             </Link>

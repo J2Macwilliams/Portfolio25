@@ -1,9 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
-import { iconSkill } from '../types';
+import { imageLink } from '../types';
 
-const IconImage = ({ alt, src }: iconSkill) => {
-  return <Image src={src} alt={alt} width={40} height={40} />;
+const IconImage = ({ alt, src }: imageLink) => {
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      width={30}
+      height={30}
+      className="md:w-10 sm:w-5"
+    />
+  );
 };
 
 export default IconImage;
