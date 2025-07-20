@@ -34,15 +34,10 @@ export default function RootLayout({
         {isLoading && isHome ? (
           <Splash finishLoading={() => setIsLoading(false)} />
         ) : (
-          <>
-            <Providers>
-              <div className="mb-32">
-                <Navbar />
-              </div>
-
-              {children}
-            </Providers>
-          </>
+          <Providers>
+            <Navbar />
+            {children}
+          </Providers>
         )}
       </body>
     </html>

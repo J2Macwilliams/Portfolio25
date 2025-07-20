@@ -1,4 +1,4 @@
-export interface iconSkill {
+export interface imageLink {
   src: string;
   alt: string;
 }
@@ -13,10 +13,10 @@ export interface ProjectDetails {
   id: number;
   title: string;
   description: string;
-  background: string;
+  background: imageLink;
   site: iconLink;
   repo: iconLink;
-  skills: iconSkill[];
+  skills: imageLink[];
 }
 
 export interface Data {
