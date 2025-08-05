@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center p-4 max-h-screen">
       <div className="flex flex-col justify-center ">
-        <h1 className="text-5xl dark:text-white">Jeremy J. McWilliams</h1>
-        <h2 className="text-3xl text-blue-400">Software Engineer</h2>
+        <h1 className="text-5xl">Jeremy J. McWilliams</h1>
+        <h2 className="text-3xl ">Software Engineer</h2>
       </div>
     </div>
   );

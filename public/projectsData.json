@@ -5,9 +5,9 @@
       "title": "Trekord",
       "description": "Vacation Budget Planner V2",
       "background": {
-          "src": "",
-          "alt": ""
-        },
+        "src": "",
+        "alt": ""
+      },
       "skills": [
         {
           "src": "/Skills/Angular.svg",
@@ -68,9 +68,9 @@
       "title": "Sierra Madre",
       "description": "Badge Platform",
       "background": {
-          "src": "",
-          "alt": ""
-        },
+        "src": "",
+        "alt": ""
+      },
       "skills": [
         {
           "src": "/Skills/Angular.svg",
@@ -125,9 +125,9 @@
       "title": "Check't",
       "description": "Shopping List Tool",
       "background": {
-          "src": "",
-          "alt": ""
-        },
+        "src": "",
+        "alt": ""
+      },
       "skills": [
         {
           "src": "/Skills/Vue.js.svg",
@@ -170,9 +170,9 @@
       "title": "Journey Co$t",
       "description": "Vacation Budget Planner V1",
       "background": {
-          "src": "/Assets/Journey2.jpeg",
-          "alt": "Journey Co$t image"
-        },
+        "src": "/Assets/Journey2.jpeg",
+        "alt": "Journey Co$t image"
+      },
       "skills": [
         {
           "src": "/Skills/React.svg",
@@ -231,9 +231,9 @@
       "title": "Garden of Knowledge",
       "description": "(LMS) Learning Management System",
       "background": {
-          "src": "/Assets/gok.jpeg",
-          "alt": "Garden of Knowledge image"
-        },
+        "src": "/Assets/gok.jpeg",
+        "alt": "Garden of Knowledge image"
+      },
       "skills": [
         {
           "src": "/Skills/React.svg",
@@ -280,9 +280,9 @@
       "title": "D8Picker",
       "description": "Aperiodic recurrence scheduler",
       "background": {
-          "src": "/Assets/d8picker.jpeg",
-          "alt": "D8Picker image"
-        },
+        "src": "/Assets/d8picker.jpeg",
+        "alt": "D8Picker image"
+      },
       "skills": [
         {
           "src": "/Skills/React.svg",

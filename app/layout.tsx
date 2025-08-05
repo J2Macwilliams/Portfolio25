@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Splash from './components/splash/Splash';
 import './globals.css';
 import Providers from './providers';
-import { unstable_ViewTransition as ViewTransition } from 'react'
+import { unstable_ViewTransition as ViewTransition } from 'react';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,8 +30,8 @@ export default function RootLayout({
   const handleTransition = () => {
     startTransition(() => {
       setIsLoading(false);
-    })
-  }
+    });
+  };
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -39,14 +39,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ViewTransition name="splash-transition">
-        {isLoading && isHome ? (
-          <Splash finishLoading={() => handleTransition()} />
-        ) : (
-          <Providers>
-            <Navbar />
-            {children}
-          </Providers>
-        )}
+          {isLoading && isHome ? (
+            <Splash finishLoading={() => handleTransition()} />
+          ) : (
+            <Providers>
+              <Navbar />
+              {children}
+            </Providers>
+          )}
         </ViewTransition>
       </body>
     </html>
