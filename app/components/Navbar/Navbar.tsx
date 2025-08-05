@@ -2,32 +2,56 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import ThemeSwitch from '../ThemeSwitch';
-import Logo from '../Logo';
 import Image from 'next/image';
 import HamburgerButton, { MenuProps } from '../Hamburger/Hamburger';
+import Logo from '../Logo/Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const getLightnessFromHex = (hex: any) => {
+    hex = hex.replace(/^#/, '');
+
+    const r = parseInt(hex.substr(0, 2), 16);
+    const g = parseInt(hex.substr(2, 2), 16);
+    const b = parseInt(hex.substr(4, 2), 16);
+
+    const brightness = (0.2126 * r + 0.75152 * g + 0.722 * b) / 255;
+    return +(brightness * 100).toFixed(2);
+  };
+
+  const setColor = (input: any) => {
+    const lightness = getLightnessFromHex(input)
+    document.documentElement.style.setProperty('--background', input)
+    document.documentElement.style.setProperty('--primary', lightness > 120 ? '#010145': lightness > 80 ? '#2f2f2f ': '#adbcc0')
+
+  };
+
+
   return (
-    <div className='mb-12'>
-      <div className="flex justify-between p-2 w-full">
+    <div className="mb-12 bg-foreground">
+      <div className="flex justify-between p-2">
         <Logo />
-        <div className="hidden md:flex justify-evenly items-center">
-          <Link className="px-2 text-lg" href="about">
+        <div className="hidden md:flex justify-evenly items-center w-1/3">
+          <Link href="about">
             About{' '}
           </Link>
-          <Link className="px-2 text-lg" href="projects">
+          <Link href="projects">
             Projects{' '}
           </Link>
-          <Link className="px-2 text-lg" href="experience">
+          <Link href="experience">
             Experience{' '}
           </Link>
-          <div className="text-2xl">
-            <ThemeSwitch />
+          <div className="flex justify-center items-center">
+            Theme
+            <input
+              type="color"
+              id="colorInput"
+              onChange={(e) => setColor(e.target.value)}
+            />
           </div>
         </div>
         <div className="md:hidden flex justify-evenly items-center w-1/6 text-3xl">
-          <ThemeSwitch />
           <HamburgerButton isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
@@ -42,6 +66,14 @@ const Navbar = () => {
               Projects{' '}
             </Link>
             {/* <Link className='px-2 text-lg' href="experience">Experience </Link> */}
+            <div className="flex justify-center items-center">
+              Theme
+              <input
+                type="color"
+                id="colorInput"
+                onChange={(e) => setColor(e.target.value)}
+              />
+            </div>
           </div>
         </div>
       )}
@@ -50,3 +82,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

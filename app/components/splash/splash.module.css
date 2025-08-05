@@ -1,10 +1,3 @@
-:root {
-  --light: white;
-  --med: dodgerblue;
-  --dark: #010145;
-  --dark2: black;
-}
-
 #home {
   width: 100%;
   height: 100vh;
@@ -26,13 +19,13 @@
   animation: fill 1s ease forwards 3.5s;
 }
 #logo path:nth-child(1) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9185485839844;
   stroke-dashoffset: 400.9185485839844;
   animation: line-anim 1s ease forwards 1.8s;
 }
 #logo path:nth-child(2) {
-  stroke: var(--med);
+  stroke: var(--secondary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation:
@@ -40,49 +33,49 @@
     fill2 1s ease forwards 3.5s;
 }
 #logo path:nth-child(3) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards;
 }
 #logo path:nth-child(4) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.1s;
 }
 #logo path:nth-child(5) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.2s;
 }
 #logo path:nth-child(6) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.3s;
 }
 #logo path:nth-child(7) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.4s;
 }
 #logo path:nth-child(8) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.5s;
 }
 #logo path:nth-child(9) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.6s;
 }
 #logo path:nth-child(10) {
-  stroke: var(--med);
+  stroke: var(--secondary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation:
@@ -90,13 +83,13 @@
     fill2 1s ease forwards 3.5s;
 }
 #logo path:nth-child(11) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 0.8s;
 }
 #logo path:nth-child(12) {
-  stroke: var(--med);
+  stroke: var(--secondary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation:
@@ -104,49 +97,49 @@
     fill2 1s ease forwards 3.5s;
 }
 #logo path:nth-child(13) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1s;
 }
 #logo path:nth-child(14) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.1s;
 }
 #logo path:nth-child(15) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.2s;
 }
 #logo path:nth-child(16) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.3s;
 }
 #logo path:nth-child(17) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.4s;
 }
 #logo path:nth-child(18) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.5s;
 }
 #logo path:nth-child(19) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.6s;
 }
 #logo path:nth-child(20) {
-  stroke: var(--dark);
+  stroke: var(--primary);
   stroke-dasharray: 400.9186096191406;
   stroke-dashoffset: 400.9186096191406;
   animation: line-anim 1s ease forwards 1.7s;
@@ -164,7 +157,7 @@
     fill: transparent;
   }
   to {
-    fill: var(--dark);
+    fill: var(--primary);
   }
 }
 @keyframes fill2 {
@@ -172,7 +165,7 @@
     fill: transparent;
   }
   to {
-    fill: var(--med);
+    fill: var(--secondary);
   }
 }
 
@@ -181,7 +174,7 @@
     fill: transparent;
   }
   to {
-    fill: var(--med);
+    fill: var(--brand);
   }
 }
 
