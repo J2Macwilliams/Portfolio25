@@ -10,20 +10,20 @@ interface Loading {
 const Splash = ({ finishLoading }: Loading) => {
   const splashRef = useRef(null);
 
-  const moveUp = () => {
-    var t1 = gsap.timeline().to(splashRef.current, {
-      ease: 'slow(0.7, 0.7, false)',
-      duration: 5,
+  // const moveUp = () => {
+  //   var t1 = gsap.timeline().to(splashRef.current, {
+  //     ease: 'slow(0.7, 0.7, false)',
+  //     duration: 2,
 
-      y: -40,
-    });
-    return t1;
-  };
+  //     y: -40,
+  //   });
+  //   return t1;
+  // };
   const small = () => {
     var t2 = gsap.timeline().to(splashRef.current, {
       ease: 'slow(0.7, 0.7, false)',
-      duration: 5,
-      scale: 0.8,
+      duration: 3,
+      scale: 0.7,
     });
     return t2;
   };
@@ -31,8 +31,8 @@ const Splash = ({ finishLoading }: Loading) => {
   useEffect(() => {
     const timeout = setTimeout(() => true, 10);
     var master = gsap.timeline({ onComplete: () => finishLoading() });
-    master.add(moveUp()).add(small(), '-=5');
-
+    // master.add(moveUp()).add(small(), '-=3');
+    master.add(small());
     return () => clearTimeout(timeout);
   }, []);
 

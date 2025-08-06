@@ -42,10 +42,10 @@ export default function RootLayout({
           {isLoading && isHome ? (
             <Splash finishLoading={() => handleTransition()} />
           ) : (
-            <Providers>
+            <>
               <Navbar />
               {children}
-            </Providers>
+            </>
           )}
         </ViewTransition>
       </body>
