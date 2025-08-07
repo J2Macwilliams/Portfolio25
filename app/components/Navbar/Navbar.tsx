@@ -1,8 +1,6 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import ThemeSwitch from '../ThemeSwitch';
-import Image from 'next/image';
 import HamburgerButton, { MenuProps } from '../Hamburger/Hamburger';
 import Logo from '../Logo/Logo';
 
@@ -33,14 +31,11 @@ const Navbar = () => {
       <div className="flex justify-between p-2">
         <Logo />
         <div className="hidden md:flex justify-evenly items-center w-1/3">
-          <Link href="about">
+          <Link href="/about">
             About{' '}
           </Link>
-          <Link href="projects">
+          <Link href="/projects">
             Projects{' '}
-          </Link>
-          <Link href="experience">
-            Experience{' '}
           </Link>
           <div className="flex justify-center items-center">
             Theme
@@ -58,11 +53,11 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden fixed flex justify-end w-full ">
-          <div className="flex flex-col w-1/4 p-4 shadow-md z-10 dark:shadow-blue-400 rounded-md">
-            <Link className="px-2 text-lg" href="about">
+          <div className="flex flex-col w-1/4 p-4 shadow-md z-9 dark:shadow-blue-400 rounded-md">
+            <Link className="px-2 text-lg" href="/about">
               About{' '}
             </Link>
-            <Link className="px-2 text-lg" href="projects">
+            <Link className="px-2 text-lg" href="/projects">
               Projects{' '}
             </Link>
             {/* <Link className='px-2 text-lg' href="experience">Experience </Link> */}

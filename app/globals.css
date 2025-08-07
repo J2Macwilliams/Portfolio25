@@ -7,15 +7,16 @@
   --background: #ffffff;
   --foreground: oklch(from var(--background) calc(l * 1.2) c h);
   --primary: #010145;
-  --secondary: oklch(from var(--primary) calc(l * 3.632) calc(c * 1.581) calc(h*0.9548));
+  --secondary: oklch(
+    from var(--primary) calc(l * 3.632) calc(c * 1.581) calc(h * 0.9548)
+  );
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --primary: var(--primary);
-  --secondary: var(--secondary)
-  --font-sans: var(--font-geist-sans);
+  --secondary: var(--secondary) --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
