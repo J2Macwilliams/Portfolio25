@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ViewTransition name="splash-transition">
+        {/* <ViewTransition name="splash-transition"> */}
           {isLoading && isHome ? (
             <Splash finishLoading={() => handleTransition()} />
           ) : (
@@ -47,7 +47,7 @@ export default function RootLayout({
               {children}
             </>
           )}
-        </ViewTransition>
+        {/* </ViewTransition> */}
       </body>
     </html>
   );

@@ -53,7 +53,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden fixed flex justify-end w-full ">
-          <div className="flex flex-col w-1/4 p-4 shadow-md z-10 dark:shadow-blue-400 rounded-md">
+          <div className="flex flex-col w-1/4 p-4 shadow-md z-9 dark:shadow-blue-400 rounded-md">
             <Link className="px-2 text-lg" href="/about">
               About{' '}
             </Link>
